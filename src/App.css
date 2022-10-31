@@ -40,19 +40,11 @@ body {
   width: 60px;
   border-radius: 100%;
 }
-
-.logo-footer{
-  height: 120px;
-  /* width: 10px; */
-  border-radius: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
 }
-
 p, a, li, button, ul {
   margin: 0;
   padding: 0;
@@ -62,6 +54,9 @@ p, a, li, button, ul {
 
 a:hover {
   text-decoration: none;
+}
+.pointer{
+  cursor: pointer;
 }
 
 img {
@@ -616,6 +611,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
+}
+@media (max-width: 600px){
+  .new-email-bx button{
+padding: 5px 5px;
+border-radius: 8px;
+
+  }
+  .email-later{
+   display: none;
+  }
 }
 
 .footer img {
